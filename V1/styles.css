@@ -9,7 +9,7 @@ body{
 h1{
     background-color: hsl(273, 55%, 46%);
     color: white;
-    font-size: 25px;
+    font-size: 2.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
@@ -19,4 +19,7 @@ h2{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+p > h2{
+    padding: 5px 0px 10px 5px;
 }
