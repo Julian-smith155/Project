@@ -9,12 +9,14 @@ body{
 h1{
     background-color: hsl(273, 55%, 46%);
     color: white;
-    font-size: larger;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 h2{
     background-color: #6833ff;
     color: white;
     font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
