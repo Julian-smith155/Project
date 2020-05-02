@@ -2,15 +2,19 @@ html{
     background-color: #898989;
 }
 body{
+    color: black;
     background-color: #c9a0ea;
 }
 
 h1{
-    background-color: #7e35b8;
+    background-color: hsl(273, 55%, 46%);
     color: white;
+    font-size: larger;
 
 }
 h2{
+    background-color: #6833ff;
     color: white;
+    font-size: large;
 
 }
