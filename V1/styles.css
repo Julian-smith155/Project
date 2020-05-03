@@ -28,6 +28,12 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+h3{
+    background-color: #6833ff;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 p > h2{
     padding: 5px 0px 10px 5px;
 }
