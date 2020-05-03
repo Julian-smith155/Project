@@ -44,6 +44,7 @@ p > h2{
 nav a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px 0px 10px 20px;
+    text-align: left;
 }
 nav > ul > li a:link, nav > ul > a:visited{
     color: blueviolet;
