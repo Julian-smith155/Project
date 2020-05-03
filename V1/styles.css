@@ -40,11 +40,11 @@ h3{
 }
 p > h2{
     padding: 5px 0px 10px 5px;
+    text-align: left;
 }
 nav a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px 0px 10px 20px;
-    text-align: left;
 }
 nav > ul > li a:link, nav > ul > a:visited{
     color: blueviolet;
@@ -60,7 +60,7 @@ article{
     box-sizing: border-box;
     padding: 25px 25px 25px 25px;
 }
-footer{
+body > footer{
     font-size: 1.0em;
     background-color: #898989;
     text-align: center;
