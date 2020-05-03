@@ -40,6 +40,6 @@ nav > ul > li a:link, nav > ul > a:visited{
     text-decoration: none;
 }
 nav > ul > li a:hover, nav > ul > a:active{
-    color: rgb(214, 166, 210);
+    color: rgb(17, 1, 112);
     text-decoration: underline;
 }
