@@ -21,9 +21,6 @@ p > body{
     /*M2LO4 Demonstrate external, embedded, and inline styles */
     font-size: 1.0px;
 }
-h1 > *{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 h1{
      /* M2LO13 Demonstrate how CSS can change presentation of textual elements*/
@@ -48,10 +45,16 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
 }
+/* M2LO5 Demonstrate contextual selectors*/
 p > h2{
     padding: 5px 0px 10px 5px;
     text-align: left;
 }
+/* M2LO5 Demonstrate contextual selectors*/
+h1 > *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px 0px 10px 20px;
