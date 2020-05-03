@@ -1,3 +1,11 @@
+/*
+Name: Julian Smith
+Date: May 02 2020
+Assignment: M02: Project V1 - Basic HTML and CSS
+The purpose of this assignment was to creat the first version of our websites.
+*/
+@charset "utf-8";
+
 html{
     background-color: #898989;
 }
@@ -22,4 +30,12 @@ h2{
 }
 p > h2{
     padding: 5px 0px 10px 5px;
+}
+nav > ul > li a:link, nav > ul > a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+nav > ul > li a:hover, nav > ul > a:active{
+    color: rgb(214, 166, 210);
+    text-decoration: underline;
 }
