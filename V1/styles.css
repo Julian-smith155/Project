@@ -22,14 +22,14 @@ h1{
 
 }
 h2{
-    background-color: #6833ff;
+    background-color: hsl(273, 55%, 46%);
     color: white;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 h3{
-    background-color: #ee5ffc;
+    background-color: #6833ff;
     color: white;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -53,4 +53,10 @@ nav > ul > li a:hover, nav > ul > a:active{
 article{
     border: midnightblue;
     background-color: orchid;
+    box-sizing: border-box;
+    padding: 25px 25px 25px 25px;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
