@@ -21,7 +21,7 @@ p > body{
     /*M2LO4 Demonstrate external, embedded, and inline styles */
     font-size: 1.0px;
 }
-p > *{
+h1 > *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
