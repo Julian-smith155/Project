@@ -6,6 +6,12 @@ The purpose of this assignment was to creat the first version of our websites.
 */
 @charset "utf-8";
 
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand-regular.woff) format('woff'),
+         url(Quicksand-regular.ttf) format('truetype');
+}
+
 html{
     /* M2LO15 Apply colors using CSS */
     background-color: #898989;
@@ -15,21 +21,21 @@ body{
     background-color: #c9a0ea;
 }
 p > body{
+    /* Demonstrate style precedence and inheritance in CSS (inheretence)*/
     font-size: 1.0px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-}
 h1{
+     /* M2LO13 Demonstrate how CSS can change presentation of textual elements*/
     background-color: hsl(273, 55%, 46%);
     color: white;
     font-size: 3.5em;
-    /* M2LO13 Demonstrate how CSS can change presentation of textual elements*/
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 h2{
+    /* Demonstrate style precedence and inheritance in CSS (style inheretence)*/
     background-color: hsl(273, 55%, 46%);
     color: white;
     font-size: large;
