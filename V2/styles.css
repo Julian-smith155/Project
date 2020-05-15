@@ -9,27 +9,16 @@ The purpose of this assignment was to creat the first version of our websites.
 html{
     background-color: #898989;
 }
-nav.horizontalNavigation li{
-    display: block;
-    float: left;
-}
-nav.horizontalNavigation a{
-    display: block;
-    text-align: center;
-}
-body{
-    color: black;
-    background-color: #c9a0ea;
-}
-p > body{
-    font-size: 1.0px;
-}
 
+/* Headers*/
 h1{
     background-color: hsl(273, 55%, 46%);
     color: white;
     font-size: 3.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 > *{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
@@ -37,8 +26,12 @@ h2{
     color: white;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
+p > h2{
+    padding: 5px 0px 10px 5px;
+    text-align: left;
+}
+
 h3{
     background-color: hsl(273, 55%, 46%);
     color: white;
@@ -46,13 +39,7 @@ h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
 }
-p > h2{
-    padding: 5px 0px 10px 5px;
-    text-align: left;
-}
-h1 > *{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 /* Navigation */
 nav a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -66,12 +53,30 @@ nav > ul > li a:hover, nav > ul > a:active{
     color: rgb(17, 1, 112);
     text-decoration: underline;
 }
-/* */
+nav.horizontalNavigation li{
+    display: block;
+    float: left;
+}
+nav.horizontalNavigation a{
+    display: block;
+    text-align: center;
+}
+
+/* Article */
 article{
     border: midnightblue;
     background-color: orchid;
     box-sizing: border-box;
     padding: 0px 25px 0px 25px;
+}
+
+/* Body */
+body{
+    color: black;
+    background-color: #c9a0ea;
+}
+p > body{
+    font-size: 1.0px;
 }
 body > footer{
     font-size: 1.0em;
