@@ -16,7 +16,6 @@ h1{
     color: white;
     font-size: 3.5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 80%;
 }
 h1 > *{
     font-family: Arial, Helvetica, sans-serif;
@@ -58,7 +57,7 @@ nav.horizontalNavigation li{
     display: block;
     float: left;
 }
-header > nav a{
+header > nav > li{
     display: block;
     text-align: center;
     list-style: none;
