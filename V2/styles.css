@@ -54,11 +54,16 @@ nav > ul > li a:hover, nav > ul > a:active{
     color: rgb(17, 1, 112);
     text-decoration: underline;
 }
-nav li{
+nav.horizontalNavigation li{
     display: block;
     float: left;
+}
+header > nav a{
+    display: block;
+    text-align: center;
     list-style: none;
 }
+
 /* Article */
 article{
     border: midnightblue;
