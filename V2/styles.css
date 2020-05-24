@@ -103,12 +103,17 @@ div.row::after {
     content: "";
     display: table;
 }
+/* M3LO10 Demonstrate an overflow setting*/
 div[class^="col-"] {
     float: left;
-    overflow: scroll;
+    overflow: auto;
     max-height: 200px;
 }
 div.col-1-2 {width: 50%;}
+
+div > p > h2{
+    clear: all;
+}
 
 
 /* Article */
