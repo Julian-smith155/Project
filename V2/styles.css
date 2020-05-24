@@ -7,7 +7,8 @@ The purpose of this assignment was to creat the first version of our websites.
 */
 
 html{
-    background-color: #544e5c;
+
+    background: linear-gradient(-200deg, black, darkblue, purple);
 }
 
 /* Headers*/
@@ -49,6 +50,7 @@ body > header >img {
     border: 1px solid white;
     float: left;
 }
+/* M4LO5 Demonstrate the use of text or box shadowing  */
 div > img {
     width: 50%;
     height: 50%;
@@ -81,6 +83,7 @@ header > nav > ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    text-align: center;
 }
 header > nav > ul > li{
     display: inline-block;
@@ -88,8 +91,10 @@ header > nav > ul > li{
     text-transform: uppercase;
     text-size-adjust: 20%;
     block-size: 25px;
+    position: relative;
 }
 /* div */
+/* M3LO1 Demonstrate the use of a CSS reset style sheet */
 div.row {
     clear: both;
 }
@@ -100,6 +105,8 @@ div.row::after {
 }
 div[class^="col-"] {
     float: left;
+    overflow: scroll;
+    max-height: 200px;
 }
 div.col-1-2 {width: 50%;}
 
