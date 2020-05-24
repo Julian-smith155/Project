@@ -6,6 +6,7 @@ Assignment: M02: Project V1 - Basic HTML and CSS
 The purpose of this assignment was to creat the first version of our websites.
 */
 
+/*M4LO4 Demonstrate the use of gradients */
 html{
 
     background: linear-gradient(-200deg, black, darkblue, purple);
@@ -50,7 +51,8 @@ body > header >img {
     border: 1px solid white;
     float: left;
 }
-/* M4LO5 Demonstrate the use of text or box shadowing  */
+/* M4LO3 Demonstrate the use of rounded corners for borders
+ M4LO5 Demonstrate the use of text or box shadowing  */
 div > img {
     width: 50%;
     height: 50%;
@@ -110,10 +112,6 @@ div[class^="col-"] {
     max-height: 200px;
 }
 div.col-1-2 {width: 50%;}
-
-div > p > h2{
-    clear: all;
-}
 
 
 /* Article */
