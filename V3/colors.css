@@ -1,0 +1,80 @@
+
+html{
+
+    background: linear-gradient(-200deg, black, darkblue, purple);
+}
+
+/* Headers*/
+h1{
+    background-color: hsl(273, 73%, 15%);
+    color: white;
+}
+
+h2{
+    background-color: hsl(273, 73%, 15%);
+    color: white;
+}
+h3{
+    background-color: hsl(273, 100%, 20%);
+    color: white;
+}
+
+/* Body */
+body{
+    color: black;
+    background-color: #c9a0ea;
+}
+body > footer{
+    background-color: #898989;
+}
+
+/* Images*/
+body > header >img {
+    border: 1px solid white;
+}
+
+/*Navigation*/
+nav > ul > li a:link, nav > ul > a:visited{
+    color: rgb(0, 0, 0);
+}
+nav > ul > li a:hover, nav > ul > a:active{
+    color: rgb(17, 1, 112);
+}
+
+/* Article */
+article{
+    border: midnightblue;
+    background-color: orchid;
+    outline: 1px solid white;
+}
+    
+/* M6LO7 Demonstrate how to format a table with CSS*/
+/* Table Styles */
+table {
+    background-image: linear-gradient(to bottom,  orchid, black);
+    border: 5px transparent;
+  }
+  th, td{
+    border: 3px solid  hsl(273, 73%, 15%);
+    line-height: 1.4em;
+    padding: 8px;
+  }
+  
+  th{
+    background: black;
+    color: white;
+    font-weight: normal;
+  }
+  
+  td{
+    color: white;
+    font-size: 0.9em;
+    vertical-align: top;
+  }
+  /* Column Styles */
+col#firstCol {
+    width: 15%;
+  }
+  col.dataCols {
+    column-width: 25%;
+  }
