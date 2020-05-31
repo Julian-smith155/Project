@@ -155,6 +155,10 @@ body > footer{
         height: auto;
         width: auto;
     }
+    div > article {
+        display: flex;
+        flex-direction: column; 
+    }
     
     img.panel {
         width: 100%;
@@ -173,10 +177,6 @@ body > footer{
     nav.horizontal a{
         font-size: 1.5em;
         line-height: 2.2em;
-    }
-    table {
-        height: auto;
-        width: auto;
     }
     
     img.panel {
