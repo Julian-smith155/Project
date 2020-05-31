@@ -69,6 +69,7 @@ div > article  {
     float: left;
 }
 
+
 ul.submenu {
     display: none;
 }
@@ -151,7 +152,31 @@ body > footer{
         line-height: 2.2em;
     }
     table {
+        height: auto;
+        width: auto;
+    }
+    
+    img.panel {
         width: 100%;
+    }
+        nav.horizontal {
+        -webkit-order: 99;
+        order: 99;
+    }
+    body > footer {
+        -webkit-order: 100;
+        order: 100;
+    }
+}
+@media only screen and (min-width: 481px) {
+
+    nav.horizontal a{
+        font-size: 1.5em;
+        line-height: 2.2em;
+    }
+    table {
+        height: auto;
+        width: auto;
     }
     
     img.panel {
