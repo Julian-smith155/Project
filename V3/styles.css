@@ -151,19 +151,19 @@ body > footer{
         font-size: 1.5em;
         line-height: 2.2em;
     }
-    table {
-        height: auto;
-        width: auto;
+    table#calender {
+        height: 40%;
+        width: 40%;
     }
-    div > article {
+
+    article {
         display: flex;
         flex-direction: column; 
+        flex-wrap: wrap-reverse;
     }
     
-    img.panel {
-        width: 100%;
-    }
-        nav.horizontal {
+
+    nav.horizontal {
         -webkit-order: 99;
         order: 99;
     }
