@@ -82,5 +82,5 @@ col#firstCol {
 }
 
 col.dataCols {
-    column-width: 25%;
+    column-width: auto;
 }
