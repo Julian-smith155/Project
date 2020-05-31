@@ -162,6 +162,7 @@ body > footer{
         flex-wrap: wrap-reverse;
     }
     aside {
+        clear: both;
         flex: 1 1 120px;
     }
 
