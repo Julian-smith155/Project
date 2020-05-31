@@ -152,8 +152,7 @@ body > footer{
         line-height: 2.2em;
     }
     table#calender {
-        height: 40%;
-        width: 40%;
+        flex: 1 1 auto;
     }
 
     article {
@@ -174,7 +173,7 @@ body > footer{
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
     }
-    
+
     body > footer {
         -webkit-order: 100;
         order: 100;
