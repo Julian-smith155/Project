@@ -151,7 +151,8 @@ body > footer{
         font-size: 1.5em;
         line-height: 2.2em;
     }
-    table#calender {
+    /*M5LO5 Demonstrate the use of flexboxes on a web page  */
+    table {
         flex: 1 1 auto;
     }
 
@@ -159,6 +160,9 @@ body > footer{
         display: flex;
         flex-direction: column; 
         flex-wrap: wrap-reverse;
+    }
+    aside {
+        flex: 1 1 120px;
     }
 
     nav.horizontal {
