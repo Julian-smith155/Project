@@ -144,7 +144,7 @@ body > footer{
     padding-bottom: 20px;
 }
 
-
+/*M5LO3 Use media queries to format a page differently for phones vs. PCs. */
 @media only screen and (max-width: 480px) {
 
     nav.horizontal a{
@@ -161,31 +161,20 @@ body > footer{
         flex-direction: column; 
         flex-wrap: wrap-reverse;
     }
-    
 
     nav.horizontal {
         -webkit-order: 99;
         order: 99;
     }
-    body > footer {
-        -webkit-order: 100;
-        order: 100;
-    }
-}
-@media only screen and (min-width: 481px) {
 
-    nav.horizontal a{
-        font-size: 1.5em;
-        line-height: 2.2em;
+    body {
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
     }
     
-    img.panel {
-        width: 100%;
-    }
-        nav.horizontal {
-        -webkit-order: 99;
-        order: 99;
-    }
     body > footer {
         -webkit-order: 100;
         order: 100;
