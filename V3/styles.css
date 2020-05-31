@@ -150,6 +150,9 @@ body > footer{
         font-size: 1.5em;
         line-height: 2.2em;
     }
+    table {
+        width: 100%;
+    }
     
     img.panel {
         width: 100%;
