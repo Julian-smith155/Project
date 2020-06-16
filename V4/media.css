@@ -1,0 +1,39 @@
+@media only screen and (max-width: 480px) {
+
+    nav.horizontal a{
+        font-size: 1.5em;
+        line-height: 2.2em;
+    }
+
+    table {
+        flex: 1 1 auto;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap-reverse;
+    }
+    aside {
+        clear: both;
+        flex: 1 1 120px;
+    }
+
+    nav.horizontal {
+        -webkit-order: 99;
+        order: 99;
+    }
+
+    body {
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+
+    body > footer {
+        -webkit-order: 100;
+        order: 100;
+    }
+}

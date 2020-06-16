@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*
+    Name: Julian Smith
+    Date: June 16 2020
+    Assignment: M10: Project V4 - Basic HTML and CSS
+    The purpose of this assignment was to creat the final version of our websites.
+*/
+/* Headers*/
+h1{
+    font-size: 3.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+}
+h2 > p{
+    padding: 5px 0px 10px 5px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+h3{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0px;
+    text-align: center;
+}
+
+/* Image */
+body > header > img {
+    width: 100%;
+    height: 350px;
+    float: left;
+}
+
+div > img {
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+
+div[class^="col-"] {
+    float: left;
+}
+div.col-1-2 {width: 33%;}
+
+/* Navigation */
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 2em;
+}
+nav > ul > li a:link, nav > ul > a:visited {
+    text-decoration: none;
+    
+}
+
+nav > ul > li a:hover, nav > ul > a:active{
+    text-decoration: underline;
+    
+}
+div > article  {
+    outline: none;
+    float: left;
+}
+
+
+ul.submenu {
+    display: none;
+}
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+    display: block;
+    text-decoration: none;
+}
+
+
+/*Header */
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header > nav > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+header > nav > ul > li{
+    display: inline-block;
+    margin-left: 100px;
+    text-transform: uppercase;
+    text-size-adjust: 20%;
+    position: relative;
+}
+/* div */
+div.row {
+    clear: both;
+}
+
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"] {
+    float: left;
+    overflow: auto;
+
+}
+div.col-1-2 {width: 50%;}
+
+
+/* Article */
+article{
+    box-sizing: border-box;
+    height: 250px;
+    width: 586px;
+    padding: 0px 2em 0px 2em;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+article > nav > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+article > nav > ul > li {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* Body */
+p > body{
+    font-size: 1.0px;
+}
+footer{
+    font-size: 1.0em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+body {
+    padding-left: 5em;
+    padding-right: 5em;
+}
